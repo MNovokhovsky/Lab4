@@ -9,10 +9,12 @@ body{
   margin: 0 auto;
 }
 
+h1{
+  font-size: 16px;
+  font-family: "Open Sans Condensed";
 
 p{
   font-size: 14px;
-  font-style: normal;
   font-family: "Open Sans Condensed"; 
 }
 
@@ -24,36 +26,29 @@ h1{
     font-size: 20px;
     font-style: "Open Sans Condensed"; 
 }
-
-#img{
-  border: 2px solid #ddd;
-  max-width: 100%;
-  border-radius: 100%;
-  color: #A52A2A; /* Brown */
-}
 .table{
-    font-family: 'Console', Monospace;
+    font-family: "Open Sans Condensed"; 
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
     letter-spacing: -1px;
-    line-height: 1.2em;
+    line-height: 2em;
     text-align: center;
     overflow: hidden;
 }
 th{
-  border: 2px solid yellow;
+  border: 2px solid #bfbfbf;
   text-align: center; 
-  font-family: 'Lucida', monospace; 
+  font-family: "Open Sans Condensed"; 
   font-size: 18px;
   height: 50px;
-  background-color: #FFC0CB; /* pink */
+  background-color: #f0f0f5;
   padding: 10px;
 }
 
 td{
   border: 1px solid yellow;
-  font-family: 'Lucida', Monospace;
+  font-family: "Open Sans Condensed";
   font-size: 16px;
   text-align: center;
   padding:10px;
