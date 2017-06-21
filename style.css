@@ -10,38 +10,41 @@ body{
 }
 
 h1 {
-	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  color: white;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
 }
 h3 {
-	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.4px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  color: white;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
 }
 p {
-	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  color: white;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 table{
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: -1px;
-    line-height: 2em;
-    text-align: center;
-    overflow: hidden;
+   font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: normal;
+   letter-spacing: -1px;
+   line-height: 2em;
+   text-align: center;
+   overflow: hidden;
 }
 th{
   border: 2px solid #bfbfbf;
@@ -55,15 +58,15 @@ th{
 
 td{
   border: 2px solid #bfbfbf;
-  font-family: "Open Sans Condensed";
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; 
   font-size: 16px;
   text-align: center;
   padding:10px;
-  background-color: #F5F5F5; /* White Smoke */
+  background-color: #edd25c;
 }
 
 tr:hover td{
-  background-color: 	#DDA0DD;  /* Plum */
+  background-color: #adbcd3;
   border: 2px solid black;
-  color: 	#FFFFFF; 
+  color: #FFFFFF; 
 }
