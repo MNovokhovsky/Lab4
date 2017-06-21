@@ -1,7 +1,7 @@
 body{
   background-color: #4a464f;
   background-position: center;
-  font-family: "Open Sans Condensed";
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
   text-align: center;
   width: auto;
@@ -9,25 +9,32 @@ body{
   margin: 0 auto;
 }
 
-h1{
-  font-size: 16px;
-  font-family: "Open Sans Condensed";
-
-p{
-  font-size: 14px;
-  font-family: "Open Sans Condensed"; 
+h1 {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
-
-div{
-  background-color: #ddc83e;
+h3 {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
 }
-h1{
-    color: #f2f4f3;
-    font-size: 20px;
-    font-style: "Open Sans Condensed"; 
+p {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
 }
-.table{
-    font-family: "Open Sans Condensed"; 
+table{
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
@@ -39,7 +46,7 @@ h1{
 th{
   border: 2px solid #bfbfbf;
   text-align: center; 
-  font-family: "Open Sans Condensed"; 
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; 
   font-size: 18px;
   height: 50px;
   background-color: #f0f0f5;
@@ -47,7 +54,7 @@ th{
 }
 
 td{
-  border: 1px solid yellow;
+  border: 2px solid #bfbfbf;
   font-family: "Open Sans Condensed";
   font-size: 16px;
   text-align: center;
@@ -57,17 +64,6 @@ td{
 
 tr:hover td{
   background-color: 	#DDA0DD;  /* Plum */
-  border: 2px solid yellow;
-  color: 	#FFFFFF; /* White */ 
-}
-th{
-  text-decoration: underline;
-}
-
-p {
-  color: violet ;
-}
-
-h3{
-  color:yellow;
+  border: 2px solid black;
+  color: 	#FFFFFF; 
 }
